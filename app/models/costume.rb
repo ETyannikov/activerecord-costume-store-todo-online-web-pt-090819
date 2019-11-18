@@ -4,6 +4,8 @@
 class Costume < ActiveRecord::Base
   
   def change
-    create_table :costumes
+    create_table :costumesdo |t|
+      t.string :name
+    end
   end
 end
