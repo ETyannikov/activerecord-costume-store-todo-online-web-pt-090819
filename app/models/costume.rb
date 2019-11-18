@@ -4,6 +4,6 @@
 class Costume < ActiveRecord::Base
   
   def change
-    create_table
+    create_table :costumes
   end
 end
